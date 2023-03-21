@@ -11,10 +11,6 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'magic-eight-ball',
-    loadChildren: () => import('./magic-eight-ball/magic-eight-ball.module').then( m => m.MagicEightBallPageModule)
-  },
 ];
 
 @NgModule({

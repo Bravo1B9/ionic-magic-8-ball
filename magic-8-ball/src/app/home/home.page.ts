@@ -7,6 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  question: string;
+  answer: string;
+
+  constructor() {
+    this.question = '';
+    this.answer = '';
+  }
+
+  shake() {
+    this.answer = "Yes"
+  }
 
 }
