@@ -1,0 +1,7 @@
+{
+  "name": "magic-8-ball",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
